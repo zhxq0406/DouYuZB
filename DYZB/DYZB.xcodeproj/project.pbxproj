@@ -97,6 +97,7 @@
 		BB4615311DB51654000A3108 /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				BB4615601DB51D5F000A3108 /* classes */,
 				BB4615321DB51654000A3108 /* AppDelegate.swift */,
 				BB4615341DB51654000A3108 /* ViewController.swift */,
 				BB4615361DB51654000A3108 /* Main.storyboard */,
@@ -123,6 +124,61 @@
 				BB4615541DB51654000A3108 /* Info.plist */,
 			);
 			path = DYZBUITests;
+			sourceTree = "<group>";
+		};
+		BB4615601DB51D5F000A3108 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB4615641DB51D5F000A3108 /* Main */,
+				BB4615621DB51D5F000A3108 /* Home */,
+				BB4615631DB51D5F000A3108 /* Live */,
+				BB4615611DB51D5F000A3108 /* Follow */,
+				BB4615651DB51D5F000A3108 /* Profile */,
+				BB4615661DB51D5F000A3108 /* Tools */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		BB4615611DB51D5F000A3108 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		BB4615621DB51D5F000A3108 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB4615631DB51D5F000A3108 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		BB4615641DB51D5F000A3108 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BB4615651DB51D5F000A3108 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BB4615661DB51D5F000A3108 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
